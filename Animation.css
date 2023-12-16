@@ -1,0 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .animated-image {
+    width: 200px; 
+    height: 200px; 
+    animation: jump 2s infinite;
+    transform-origin: bottom; 
+  }
+  
+  @keyframes jump {
+    0%, 100% {
+      transform: scaleY(0.8) translateY(0); 
+    }
+    50% {
+      transform: scaleY(1.2) translateY(-50px); 
+    }
+  }
+  
+  
+  
+  
+  
